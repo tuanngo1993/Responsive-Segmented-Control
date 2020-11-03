@@ -1,1 +1,0 @@
-# Responsive-Segmented-Control
