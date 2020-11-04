@@ -1,0 +1,11 @@
+.select-control {
+	width: 100%;
+    border: 3px solid #5796FF;
+    border-radius: 8px;
+	padding: 10px 15px;
+	font-size: 1rem;
+}
+
+.select-control:focus {
+	outline: none;
+}

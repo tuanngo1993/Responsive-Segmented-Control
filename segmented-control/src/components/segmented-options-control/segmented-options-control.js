@@ -1,31 +1,50 @@
 import React from "react";
 
-class OptionsControl extends React.Component {
+class SegmentedOptionsControl extends React.Component {
 	constructor(props) {
 		super(props);
 		this.refOption = React.createRef();
 
 		this.handleOnClick = this.handleOnClick.bind(this);
 		this.handleOnBlur = this.handleOnBlur.bind(this);
+		this.handleOnChange = this.handleOnChange.bind(this);
+	}
+
+	handleOnChange(item) {
+		this.props.onChange(item);
 	}
 
 	handleOnClick(item) {
 		this.refOption.current.focus();
 		this.refOption.current.classList.add("segmented-control__item--selected");
+
+		if (item) {
+			this.props.onChange(item);
+		}
 	}
 
 	handleOnBlur(item) {
 		item.target.classList.remove("segmented-control__item--selected");
 	}
 
+	componentDidUpdate() {
+		if (this.props.item === this.props.selected) {
+			this.handleOnClick();
+		}
+	}
+
 	render() {
 		return (
 			<div
 				key={`item-${this.props.item}`}
-				className="segmented-control__item"
+				className={
+					this.props.item === this.props.selected
+						? " segmented-control__item segmented-control__item--selected"
+						: "segmented-control__item"
+				}
 				tabIndex={-1}
 				ref={this.refOption}
-				onBlur={this.handleOnBlur.bind(this.props.item)}
+				onBlur={this.handleOnBlur}
 			>
 				<input
 					className="segmented-control__input"
@@ -43,4 +62,4 @@ class OptionsControl extends React.Component {
 	}
 }
 
-export default OptionsControl;
+export default SegmentedOptionsControl;

@@ -1,6 +1,5 @@
 .segmented-control {
 	display: flex;
-	/* border: 3px solid #5796FF; */
 	border-radius: 4px;
 }
 
@@ -46,7 +45,3 @@
 	padding: 10px 15px;
 	cursor: pointer;
 }
-
-/* .segmented-control__label:hover {
-	background-color: #D9E7F9;
-} */
