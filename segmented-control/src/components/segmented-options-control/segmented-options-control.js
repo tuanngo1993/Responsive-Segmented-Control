@@ -42,7 +42,6 @@ class SegmentedOptionsControl extends React.Component {
 						? " segmented-control__item segmented-control__item--selected"
 						: "segmented-control__item"
 				}
-				tabIndex={-1}
 				ref={this.refOption}
 				onBlur={this.handleOnBlur}
 			>

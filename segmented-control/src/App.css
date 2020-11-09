@@ -10,7 +10,7 @@
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background-color: #73B9FF;
+	background-color: #73b9ff;
 }
 
 .App {
@@ -24,4 +24,13 @@
 	align-items: center;
 	box-shadow: 0 0 3px 1px #ccc;
 	flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+	.select-control {
+		display: block !important;
+	}
+	.segmented-control {
+		display: none !important;
+	}
 }
