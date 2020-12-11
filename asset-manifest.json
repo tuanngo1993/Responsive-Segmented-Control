@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Responsive-Segmented-Control/static/css/main.031a356f.chunk.css",
+    "main.js": "/Responsive-Segmented-Control/static/js/main.e984a880.chunk.js",
+    "main.js.map": "/Responsive-Segmented-Control/static/js/main.e984a880.chunk.js.map",
+    "runtime-main.js": "/Responsive-Segmented-Control/static/js/runtime-main.357328ec.js",
+    "runtime-main.js.map": "/Responsive-Segmented-Control/static/js/runtime-main.357328ec.js.map",
+    "static/js/2.7d14c896.chunk.js": "/Responsive-Segmented-Control/static/js/2.7d14c896.chunk.js",
+    "static/js/2.7d14c896.chunk.js.map": "/Responsive-Segmented-Control/static/js/2.7d14c896.chunk.js.map",
+    "static/js/3.a3c666e4.chunk.js": "/Responsive-Segmented-Control/static/js/3.a3c666e4.chunk.js",
+    "static/js/3.a3c666e4.chunk.js.map": "/Responsive-Segmented-Control/static/js/3.a3c666e4.chunk.js.map",
+    "index.html": "/Responsive-Segmented-Control/index.html",
+    "static/css/main.031a356f.chunk.css.map": "/Responsive-Segmented-Control/static/css/main.031a356f.chunk.css.map",
+    "static/js/2.7d14c896.chunk.js.LICENSE.txt": "/Responsive-Segmented-Control/static/js/2.7d14c896.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.357328ec.js",
+    "static/js/2.7d14c896.chunk.js",
+    "static/css/main.031a356f.chunk.css",
+    "static/js/main.e984a880.chunk.js"
+  ]
+}
